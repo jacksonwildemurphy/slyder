@@ -28,12 +28,12 @@ img { max-width: 100%; }
 
 nav {
 	display: none;
-	position: fixed;
+	position: absolute; <!-- for fixed navbar, change to "fixed" --> 
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 998;
-	background: #3d3d3d;
+	background: transparent;
 	font-size: 18px;
 	color: #fff;
     line-height: 32px;
@@ -47,19 +47,19 @@ nav a {
 	color: #fff;
 }
 nav a:hover { color: #e8643e; }
-nav a:focus { color: #e8643e; }
+nav a:focus { color: #fff; }
 
-.show-menu, .hide-menu {
+<!--.show-menu, .hide-menu {
 	position: absolute;
 	top: -6px;
 	right: 100px;
 	padding: 0 20px;
 	z-index: 999;
 	text-align: center;
-}
-.hide-menu { top: -1px; }
+} -->
+<!--.hide-menu { top: -1px; } -->
 
-.show-menu a, .hide-menu a {
+<!--.show-menu a, .hide-menu a {
 	display: inline-block;
 	width: 46px;
 	height: 48px;
@@ -72,7 +72,7 @@ nav a:focus { color: #e8643e; }
     border-radius: 4px;
 }
 .show-menu a:hover, .hide-menu a:hover { color: #fff; }
-
+-->
 
 /***** Coming Soon *****/
 
