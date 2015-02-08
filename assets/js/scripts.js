@@ -45,17 +45,8 @@ jQuery(document).ready(function() {
     
     $('.whos-behind-container').backstretch("assets/img/backgrounds/4.jpg");
 
-    /*
-        Countdown initializer
-    */
-    var now = new Date();
-    var countTo = 25 * 24 * 60 * 60 * 1000 + now.valueOf();    
-    $('.timer').countdown(countTo, function(event) {
-    	$(this).find('.days').text(event.offset.totalDays);
-    	$(this).find('.hours').text(event.offset.hours);
-    	$(this).find('.minutes').text(event.offset.minutes);
-    	$(this).find('.seconds').text(event.offset.seconds);
-    });
+    
+    // Countdown timer code went here...
     
     /*
         Testimonials
@@ -76,7 +67,10 @@ jQuery(document).ready(function() {
     /*
 	    Show latest tweets
 	*/
-	$('.latest-tweets .tweets').tweet({
+	
+    /* Omit the tweet feature for now... 
+    
+    $('.latest-tweets .tweets').tweet({
 		modpath: 'assets/twitter/',
 		username: 'anli_zaimi',
 		page: 1,
@@ -103,6 +97,8 @@ jQuery(document).ready(function() {
     	});
     	clicked_tweet_nav.css('background', '#e8643e');
     });
+    
+    */
 
     /*
 	    Google maps
