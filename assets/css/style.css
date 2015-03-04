@@ -49,30 +49,6 @@ nav a {
 nav a:hover { color: #e8643e; }
 nav a:focus { color: #fff; }
 
-<!--.show-menu, .hide-menu {
-	position: absolute;
-	top: -6px;
-	right: 100px;
-	padding: 0 20px;
-	z-index: 999;
-	text-align: center;
-} -->
-<!--.hide-menu { top: -1px; } -->
-
-<!--.show-menu a, .hide-menu a {
-	display: inline-block;
-	width: 46px;
-	height: 48px;
-	padding-top: 11px;
-	background: #3d3d3d;
-	font-size: 21px;
-	color: #fff;
-	-moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-}
-.show-menu a:hover, .hide-menu a:hover { color: #fff; }
--->
 
 /***** Coming Soon *****/
 

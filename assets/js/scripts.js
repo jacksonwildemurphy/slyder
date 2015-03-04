@@ -39,7 +39,7 @@ jQuery(document).ready(function () {
 
     /*
         Background slideshow
-    */
+
     $('.coming-soon').backstretch([
       "assets/img/backgrounds/1.jpg"
     , "assets/img/backgrounds/2.jpg"
@@ -48,10 +48,16 @@ jQuery(document).ready(function () {
         duration: 3000,
         fade: 750
     });
+    */
 
-    $('.about-container').backstretch("assets/img/backgrounds/2.jpg");
+    /*
+        Static background
+    */
+    $('.coming-soon').backstretch("assets/img/backgrounds/slc-splash.png");
 
-    $('.whos-behind-container').backstretch("assets/img/backgrounds/4.jpg");
+    $('.about-container').backstretch("assets/img/backgrounds/steel-gray.jpg");
+
+    $('.whos-behind-container').backstretch("assets/img/backgrounds/light_blue.jpg");
 
 
     // Countdown timer code went here...
