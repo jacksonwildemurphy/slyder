@@ -53,7 +53,7 @@ jQuery(document).ready(function () {
     /*
         Static background
     */
-    $('.coming-soon').backstretch("assets/img/backgrounds/slc-splash.png");
+    //$('.coming-soon').backstretch("assets/img/backgrounds/slc-splash.png");
 
     $('.about-container').backstretch("assets/img/backgrounds/steel-gray.jpg");
 
@@ -83,34 +83,6 @@ jQuery(document).ready(function () {
 	*/
 
     /* Omit the tweet feature for now... 
-
-    $('.latest-tweets .tweets').tweet({
-		modpath: 'assets/twitter/',
-		username: 'anli_zaimi',
-		page: 1,
-		count: 5,
-		loading_text: 'loading ...'
-	});
-	
-	$('.latest-tweets .tweets .tweet_list li').append('<span class="tweet_nav"></span>');
-	$('.latest-tweets .tweets .tweet_list li:first .tweet_nav').css('background', '#e8643e');
-	$('.latest-tweets .tweets .tweet_list li .tweet_time').hide();
-	$('.latest-tweets .tweets .tweet_list li .tweet_text').hide();
-	$('.latest-tweets .tweet-active').html($('.latest-tweets .tweets .tweet_list li:first .tweet_text').html());
-
-	$('.latest-tweets .tweets .tweet_list li .tweet_nav').on('click', function() {
-		$('.latest-tweets .tweets .tweet_list li .tweet_nav').css('background', 'rgba(255, 255, 255, 0.6)');
-		var clicked_tweet_nav = $(this);
-    	var new_tweet_text = clicked_tweet_nav.siblings('.tweet_text').html();
-    	$('.latest-tweets .tweet-active').fadeOut(300, function() {
-    		$(this).html(new_tweet_text);
-    		$(this).fadeIn(400, function() {
-    			// reload background
-    			$('.whos-behind-container').backstretch("resize");
-    		});
-    	});
-    	clicked_tweet_nav.css('background', '#e8643e');
-    });
 
     */
 
